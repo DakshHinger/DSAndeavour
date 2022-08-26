@@ -1,0 +1,1 @@
+{"name":"Local: r","url":"d:\\C++\\CodeForces\\806\\r.cpp","tests":[{"id":1657644417597,"input":"3\n5\nabab\nab\nabc\nabacb\nc\n3\nx\nxx\nxxx\n8\ncodeforc\nes\ncodes\ncod\nforc\nforces\ne\ncode","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++\\CodeForces\\806\\r.cpp","group":"local","local":true}
