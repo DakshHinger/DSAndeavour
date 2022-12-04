@@ -24,7 +24,7 @@ void solve() {
     cout << endl;
     return;
   }
-  if (s >= maxi || (s <= mini)) {
+  if (s >= maxi  (s <= mini)) {
     map<int, int> mp;
     mp[5] = 8;
     //   if (mini <= b && b <= maxi) {
