@@ -19,7 +19,6 @@ void solve() {
     cin >> arr[i];
     sum = sum + arr[i];
   }
-  //   int sum = accumulate(arr, arr + n - 1, 0);
   sum = sum - arr[n - 1];
   int flag = 0;
   int count0 = 0;
