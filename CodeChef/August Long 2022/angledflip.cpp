@@ -34,29 +34,29 @@ void solve() {
     return;
   }
   int two = 2;
-  int arr[n][m];
+  int array[n][m];
   while (two--) {
     for (int i = 0; i < n; ++i) {
       for (int j = 0; j < m; ++j) {
-        cin >> arr[i][j];
+        cin >> array[i][j];
       }
     }
     if (two == 1) {
       for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
           if ((i + j) % 2 == 0)
-            a1.push_back(arr[i][j]);
+            a1.push_back(array[i][j]);
           else
-            b1.push_back(arr[i][j]);
+            b1.push_back(array[i][j]);
         }
       }
     } else {
       for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
           if ((i + j) % 2 == 0)
-            a2.push_back(arr[i][j]);
+            a2.push_back(array[i][j]);
           else
-            b2.push_back(arr[i][j]);
+            b2.push_back(array[i][j]);
         }
       }
     }
@@ -64,15 +64,15 @@ void solve() {
 
   // for (int i = 0; i < n; ++i) {
   //   for (int j = 0; j < m; ++j) {
-  //     cin >> arr[i][j];
+  //     cin >> array[i][j];
   //   }
   // }
   // for (int i = 0; i < n; ++i) {
   //   for (int j = 0; j < m; ++j) {
   //     if ((i + j) % 2 == 0)
-  //       a2.push_back(arr[i][j]);
+  //       a2.push_back(array[i][j]);
   //     else
-  //       b2.push_back(arr[i][j]);
+  //       b2.push_back(array[i][j]);
   //   }
   // }
   vector<vector<int>> v;

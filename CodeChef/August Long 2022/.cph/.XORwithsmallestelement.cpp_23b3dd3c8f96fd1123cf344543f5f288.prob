@@ -1,0 +1,1 @@
+{"name":"Local: XORwithsmallestelement","url":"d:\\C++\\CodeChef\\August Long 2022\\XORwithsmallestelement.cpp","tests":[{"id":1660496616819,"input":"3\n1 6 99\n9\n3 7 44\n1 2 3\n5 20 6\n5 10 15 20 25","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++\\CodeChef\\August Long 2022\\XORwithsmallestelement.cpp","group":"local","local":true}
