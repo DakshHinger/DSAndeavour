@@ -5,8 +5,10 @@ public:
         if(grid[0][0]==1 || grid[n-1][n-1]) return -1;
         vector<vector<int>> dist(n,vector<int>(n,1e9));
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
-        
-        
+        // queue<vector<int>> q; 
+        // a queue can be used as dist of each node from one another is 1 and all nodes that are equidistant will be added so no need of sorting
+        // queue do not have a top function use ""q.front()"" instead of ""pq.top()"" 
+
         dist[0][0]=0;
         pq.push({0,0,0});
         // vector<int> v=pq.top();
