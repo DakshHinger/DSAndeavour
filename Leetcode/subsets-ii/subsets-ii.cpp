@@ -2,9 +2,7 @@ class Solution {
     set<vector<int>> ans;
     void helper(int ind, vector<int>& nums, vector<int>& v){
         if(ind == nums.size()){
-            vector<int> p=v;
-            sort(p.begin(),p.end());
-            ans.insert(p);
+            ans.insert(v);
             return;
         }
         v.push_back(nums[ind]);
@@ -14,6 +12,7 @@ class Solution {
     }
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
         vector<vector<int>> result;
         vector<int> v;
         helper(0,nums,v);
